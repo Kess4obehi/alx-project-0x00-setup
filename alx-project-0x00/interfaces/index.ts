@@ -6,6 +6,5 @@ export interface PillProps {
 
 export interface ButtonProps {
   title: string;
-  size: "sm" | "md" | "lg";
-  shape: "rounded-sm" | "rounded-md" | "rounded-full"
+  styles: string;
 }
